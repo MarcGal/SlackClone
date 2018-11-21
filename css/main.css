@@ -61,10 +61,13 @@ header p {
   color: white;
   font-size: 15px;
   padding: 15px;
+  margin-top: 10%;
+  width: 100%;
 }
 
 .home-img {
   box-sizing: border-box;
   width: 100%;
   padding-top: 13%;
+  padding-bottom: 15%;
 }
