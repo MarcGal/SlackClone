@@ -4,13 +4,16 @@ body {
 }
 
 .container {
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 
 /* ==================== NAV BAR ====================  */
 
+nav {
+  margin-top: 8%;
+}
 
 .slack-logo {
   width: 25%;
@@ -23,7 +26,7 @@ body {
 }
 
 .menu-icon {
-  width: 13%;
+  width: 14%;
   float: right;
 }
 
