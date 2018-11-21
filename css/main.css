@@ -1,0 +1,21 @@
+
+
+
+/* ==================== NAV BAR ====================  */
+
+.slack-logo {
+  width: 20%;
+}
+
+.slack-logo img {
+  box-sizing: border-box;
+}
+
+
+.menu-icon > div {
+    width: 5%;
+    height: 5px;
+    background-color: grey;
+    margin: 6px 0;
+}
+
