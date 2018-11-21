@@ -71,3 +71,50 @@ header p {
   padding-top: 13%;
   padding-bottom: 15%;
 }
+
+
+.link-mas-info{
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* ==================== FEATURES SECTION ====================  */
+
+.features {
+  padding-bottom: 15%;
+}
+
+.use-cases {
+  background-color: #F5F5F5;
+  margin-bottom: 15%;
+}
+
+.use-cases-text {
+  margin-bottom: 15%;
+  margin-top: 5%;
+}
+
+.cases-links > div > button {
+  text-align: left;
+  background-color: white;
+  font-weight: 700;
+  font-size: 17px;
+  color:black;
+  padding: 15px;
+  margin: 3px;
+  width: 100%;
+  border: none;
+}
+
+.cases-links > div > button > img {
+  width: 7%;
+  float: right;
+}
+
+/* ==================== USE-CASES SECTION ====================  */
+
+.use-cases {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
