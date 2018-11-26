@@ -138,6 +138,8 @@ header p {
 
 .stories article {
   /* border-style: solid; */
+  margin-top: 10%;
+  margin-bottom: 13%;
   border-width: 0.1px grey;
   box-shadow: 3px;
 }
@@ -152,4 +154,19 @@ header p {
 .stories-menu {
   width: 12%;
   float: right;
+}
+
+
+
+
+/* <!-- ======================== FOOTER ================================================ --> */
+
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: grey;
 }
