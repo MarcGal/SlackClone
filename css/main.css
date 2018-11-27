@@ -159,6 +159,38 @@ header p {
 
 
 
+/* <!-- ======================== CTA Section ================================================ --> */
+
+.cta {
+  position: relative;
+}
+
+.cta h2 {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 45%;
+  color: white;
+  left: 20%;
+}
+
+.cta button {
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  bottom: 30%;
+  color: white;
+  left: 11%;
+  border-radius: 7px;
+  background-color: white;
+  color: #3F46AD;
+  font-size: 17px;
+  padding: 15px;
+  margin-top: 10%;
+  width: 80%;
+}
+
+
 /* <!-- ======================== FOOTER ================================================ --> */
 
 
