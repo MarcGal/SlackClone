@@ -17,12 +17,20 @@ h1, h2, h3, h4 {
 /* ==================== NAV BAR ====================  */
 
 nav {
-  margin-top: 5%;
+  margin-top: 0%;
+  padding-top: 10%;
+  position: fixed;
+  background: white;
+  box-sizing: border-box;
+  height: 100px;
+  margin-bottom: 10%;
+  z-index: 1000;
 }
 
 .slack-logo {
   width: 30%;
   float: left;
+  padding-bottom: 10%;
 }
 
 .slack-logo img {
@@ -33,6 +41,7 @@ nav {
 .menu-icon {
   width: 15%;
   float: right;
+  padding-bottom: 10%;
 }
 
 .menu-icon img {
@@ -50,9 +59,10 @@ header {
 
 header h1{
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: normal;
   font-size: 35px;
+  margin-top: 35%;
 }
 
 header p {
@@ -312,7 +322,6 @@ footer h5 {
 }
 
 .social-media > a {
-  /* box-sizing: border-box; */
   padding: 2%;
   color: grey;
 }
