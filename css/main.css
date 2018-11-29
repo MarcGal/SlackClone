@@ -135,33 +135,63 @@ header p {
 
 
 
-/* <!-- ======================== SECTION 4 LOGOS ====================================== --> */
- .logo-right {
-  float: right;
-  width: 30%;
+/* <!-- ======================== SECTION 4 USER LOGOS ====================================== --> */
+
+.user-logos {
+  margin-top: 30%;
+  margin-bottom: 40%;
 }
 
-.logo-left {
+.logo-right img {
+  float: right;
+  width: 40%;
+}
+
+.logo-left img {
   float: left;
-  width: 30%;
+  width: 40%;
 }
 
 .clear {
   clear: both;
+  margin-top: 10%;
 }
 
-/* .oracle {
+.oracle {
+  position: relative;
   clear: both;
-  align-items: center;
-}  */
+  margin-top: 10%;
+} 
+
+.oracle img {
+  position: absolute;
+  left: 20%;
+  margin-top: 10%;
+}
 /* ==================== STORIES SECTION ====================  */
 
 .stories article {
   margin-top: 10%;
   margin-bottom: 13%;
-
-  /* box-shadow: 0 0 2rem grey;; */
+  padding-bottom: 10%;
+  box-shadow: 0 0 2rem grey;
+  position: relative;
 }
+
+.stories > article > p {
+ box-sizing: border-box;
+ padding-left: 5%;
+ padding-top: 10%;
+ text-decoration: none;
+ margin-bottom: 0;
+ padding-bottom: 0;
+}
+
+.stories > article > h3 {
+  box-sizing: border-box;
+  padding-left: 5%;
+  text-decoration: none;
+ }
 
 .stories > article img {
   box-sizing: border-box;
@@ -169,6 +199,14 @@ header p {
   padding-top: 5%;
   padding-bottom: 10%;
 }
+
+.stories > article >  a {
+  box-sizing: border-box;
+  padding-left: 5%;
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+ }
 
 .stories-menu {
   width: 12%;
@@ -262,11 +300,20 @@ footer h5 {
   margin-bottom: 7%;
 }
 
-.regulations li > a{
+.regulations li > a {
   text-decoration: none;
   text-align: center;
   color: grey;
   font-weight: 600;
 }
 
+.social-media {
+  text-align: center;
+}
+
+.social-media > a {
+  /* box-sizing: border-box; */
+  padding: 2%;
+  color: grey;
+}
 
