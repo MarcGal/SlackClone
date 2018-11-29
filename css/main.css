@@ -134,14 +134,33 @@ header p {
 }
 
 
+
+/* <!-- ======================== SECTION 4 LOGOS ====================================== --> */
+ .logo-right {
+  float: right;
+  width: 30%;
+}
+
+.logo-left {
+  float: left;
+  width: 30%;
+}
+
+.clear {
+  clear: both;
+}
+
+/* .oracle {
+  clear: both;
+  align-items: center;
+}  */
 /* ==================== STORIES SECTION ====================  */
 
 .stories article {
-  /* border-style: solid; */
   margin-top: 10%;
   margin-bottom: 13%;
-  border-width: 0.1px grey;
-  box-shadow: 3px;
+
+  /* box-shadow: 0 0 2rem grey;; */
 }
 
 .stories > article img {
@@ -191,14 +210,63 @@ header p {
 }
 
 
-/* <!-- ======================== FOOTER ================================================ --> */
+/* <!-- ======================== FOOTER SECTION 1================================================ --> */
 
+footer {
+  margin-top: 10%;
+}
+
+.simple-logo {
+  width: 17%;
+}
+
+footer h5 {
+  color: grey;
+  font-size: 17px;
+  font-weight: 550;
+}
 
 .footer-links {
   list-style-type: none;
+  padding-left: 0;
+  line-height: 1.2;
 }
 
 .footer-links li a {
   text-decoration: none;
   color: grey;
+  text-align: left;
 }
+
+.footer-links li {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+/* <!-- ======================== FOOTER SECTION 2 ================================================ --> */
+
+
+.footer-section-2 {
+  background-clip: red;
+  margin-top: 15%;
+}
+
+.regulations {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.regulations li {
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.regulations li > a{
+  text-decoration: none;
+  text-align: center;
+  color: grey;
+  font-weight: 600;
+}
+
+
