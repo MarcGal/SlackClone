@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+
+  /* FEATURES SECTION */
+  .features-articles{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  .features-articles > div {
+    width: 45%;
+  }
+
+  .article-left {
+    margin-right: 5%;
+  }
+  
+  /* USE CASE SECTION */
+  .cases-links {
+		flex-direction: row;
+		flex-wrap: wrap;
+  }
+
+  .cases-links > div {
+    width: 45%;
+    height: 120px;
+  }
+
+  .cases-links > div > button {
+    text-align: center;
+  }
+
+  .cases-links > div > button > img {
+    width: 0;
+    float: none;
+  }
+
+    /* STORIES SECTION */
+
+
+}
+
+
+  /* ============== HERE ENDS MIN-WIDTH 768  ==============  */ 
+
+
+   /* ============== HERE STARTS MIN-WIDTH 1024  ==============  */ 

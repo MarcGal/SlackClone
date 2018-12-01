@@ -17,6 +17,8 @@ h1, h2, h3, h4 {
 /* ==================== NAV BAR ====================  */
 
 nav {
+  display: flex;
+  justify-content: space-between;
   margin-top: 0%;
   padding-top: 10%;
   padding-right: 10%;
@@ -31,7 +33,7 @@ nav {
 
 .slack-logo {
   width: 30%;
-  float: left;
+  /* float: left; */
   padding-bottom: 10%;
 }
 
@@ -103,9 +105,22 @@ header p {
   padding-bottom: 15%;
 }
 
+.features-articles {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .features p {
   color: #5B5E6D;
 }
+
+.features a {
+  justify-content: center;
+}
+
+/* ============================ */
 
 .use-cases {
   background-color: #F5F5F5;
@@ -115,6 +130,17 @@ header p {
 .use-cases-text {
   margin-bottom: 15%;
   margin-top: 5%;
+}
+
+.cases-links {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.cases-links > div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .cases-links > div > button {
@@ -145,42 +171,12 @@ header p {
   color: #5B5E6D;
 }
 
-
-
-/* <!-- ======================== SECTION 4 USER LOGOS ====================================== --> */
-
-.user-logos {
-  margin-top: 30%;
-  margin-bottom: 40%;
-}
-
-.logo-right img {
-  float: right;
-  width: 40%;
-}
-
-.logo-left img {
-  float: left;
-  width: 40%;
-}
-
-.clear {
-  clear: both;
-  margin-top: 10%;
-}
-
-.oracle {
-  position: relative;
-  clear: both;
-  margin-top: 10%;
-} 
-
-.oracle img {
-  position: absolute;
-  left: 20%;
-  margin-top: 10%;
-}
 /* ==================== STORIES SECTION ====================  */
+
+.stories {
+  display: flex;
+  flex-direction: column;
+}
 
 .stories article {
   margin-top: 10%;
@@ -226,6 +222,40 @@ header p {
 }
 
 
+
+/* <!-- ======================== SECTION 4 USER LOGOS ====================================== --> */
+
+.user-logos {
+  margin-top: 30%;
+  margin-bottom: 40%;
+}
+
+.logo-right img {
+  float: right;
+  width: 40%;
+}
+
+.logo-left img {
+  float: left;
+  width: 40%;
+}
+
+.clear {
+  clear: both;
+  margin-top: 10%;
+}
+
+.oracle {
+  position: relative;
+  clear: both;
+  margin-top: 10%;
+} 
+
+.oracle img {
+  position: absolute;
+  left: 20%;
+  margin-top: 10%;
+}
 
 
 /* <!-- ======================== CTA Section ================================================ --> */
